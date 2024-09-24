@@ -21,7 +21,7 @@ function App() {
         {/* <Navbar message = {sendMessage} clickedMessage = {clickedMessage} datas = {datas}/> */}
 
         {/* <Conditional username = {username} /> */}
-        <PracticeUseEffect/>
+        <PracticeUseEffect datas ={datas} username = {username}/>
     </div>
   )
 }
